@@ -1,0 +1,30 @@
+button{
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.graytext {
+    color: #dadfea;
+}
+
+.row {
+    position: relative;
+    width: 200px;
+    border: 1px solid black;
+    padding: 12px 18px;
+    margin-top: 10px;
+}
+
+.trashcan {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    color: red;
+}
+
+.myinput {
+    width: 25%;
+    height: 25px;
+    font-size: 20px;
+}
