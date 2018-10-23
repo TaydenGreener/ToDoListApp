@@ -2,23 +2,20 @@
 <html landg="en">
 <head>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script defer src="https://use.fontwesome.com/releases/v5.0"
-            integrity="sha384-S1E991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJ"
-            crossorigin="anonymous"></script>  
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script> 
     <script src="../javascript/todolist.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/todolist.css">
     <meta charset="UTF-8">
-    <title>Practice4</title>
+    <title>To Do List</title>
 </head>
 <body>
     <h1>To Do List</h1>
 
-    <input id="myinputid" class="myinput" type="text" placeholder="Title ...">
+    <input id="myinputid" class="myinput" type="text" placeholder="Title ..." onkeydown="myfunction()">
     <button id="addbtn" onclick="additem()">add item</button>
     <button class="clearlist" onclick="clearlist()">clear list</button>
     <div class="container">
-        <span class="test" onclick="strike()">hello</span>
+        
     </div>
 </body>
 </html>
